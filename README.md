@@ -15,6 +15,14 @@ npm i @utdanningno/designsystem-assets
 npm i @utdanningno/designsystem-react
 ```
 
+In your, e.g., your global CSS:
+
+```css
+@import '@utdanningno/designsystem-styles/base.css';
+@import '@utdanningno/designsystem-styles/base-md.css' (min-width: 768px);
+@import '@utdanningno/designsystem-assets/fonts.css';
+```
+
 ---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
