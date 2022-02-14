@@ -15,7 +15,7 @@ npm i @utdanningno/designsystem-assets
 npm i @utdanningno/designsystem-react
 ```
 
-In your, e.g., your global CSS:
+In, e.g., your global CSS:
 
 ```css
 @import '@utdanningno/designsystem-styles/base.css';
