@@ -4,7 +4,7 @@
 
 (Some -- all at the moment) packages require authentication. Private NPM packages are published via Github Packages (based on https://andreybleme.com/2020-05-31/hosting-private-npm-packages-for-free). To authenticate, you need a personal access token on Github with the scope: **read:packages**.
 
-As long as you have access to the necessary Github repos, you can install the packages:
+As long as you have access to the necessary Github repos, you can install the packages (these are already installed in this repo):
 
 ```sh
 # Base CSS:
