@@ -11,7 +11,7 @@ As long as you have access to the necessary Github repos, you can install the pa
 npm i @utdanningno/designsystem-styles
 # Fonts (will include icons soon):
 npm i @utdanningno/designsystem-assets
-# React components
+# React components:
 npm i @utdanningno/designsystem-react
 ```
 
