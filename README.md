@@ -1,29 +1,43 @@
 # How to use the design system of Utdanning.no
 
-*The design system is in beta.*
+*Utdanning.no designsystem is still in beta.*
 
-(Some -- all at the moment) packages require authentication. Private NPM packages are published via Github Packages (based on https://andreybleme.com/2020-05-31/hosting-private-npm-packages-for-free). To authenticate, you need a personal access token on Github with the scope: **read:packages**.
+(Some -- all at the moment) packages require authentication. Private NPM packages are published via Github Packages (based on https://andreybleme.com/2020-05-31/hosting-private-npm-packages-for-free).
 
-As long as you have access to the necessary Github repos, you can install the packages (these are already installed in this repo):
+## How to install:
 
-```sh
-# Base CSS:
-npm i @utdanningno/designsystem-styles
-# Fonts (will include icons soon):
-npm i @utdanningno/designsystem-assets
-# React components:
-npm i @utdanningno/designsystem-react
-```
+1. To authenticate, you need a personal access token on Github with the scope: **read:packages**. Use locally in next step.
 
-In, e.g., your global CSS:
+2. Add this to your "~/.npmrc" local file must look like:
 
-```css
-@import '@utdanningno/designsystem-styles/base.css';
-@import '@utdanningno/designsystem-styles/base-md.css' (min-width: 768px);
-@import '@utdanningno/designsystem-assets/fonts.css';
-```
+  ```
+  registry=https://registry.npmjs.org/
+  @utdanningno:registry=https://npm.pkg.github.com/
+  //npm.pkg.github.com/:_authToken=YOUR_TOKEN
+  ```
+
+3. As long as you have access to the necessary Github repos, you can install the packages (these are already installed in this repo):
+
+	```sh
+	# Base CSS:
+	npm i @utdanningno/designsystem-styles
+	# Fonts (will include icons soon):
+	npm i @utdanningno/designsystem-assets
+	# React components:
+	npm i @utdanningno/designsystem-react
+	```
+
+	In, e.g., your global CSS:
+
+	```css
+	@import '@utdanningno/designsystem-styles/base.css';
+	@import '@utdanningno/designsystem-styles/base-md.css' (min-width: 768px);
+	@import '@utdanningno/designsystem-assets/fonts.css';
+	```
+
 
 ---
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
