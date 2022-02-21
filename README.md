@@ -10,30 +10,30 @@
 
 2. Add this to your "~/.npmrc" local file must look like:
 
-  ```
-  registry=https://registry.npmjs.org/
-  @utdanningno:registry=https://npm.pkg.github.com/
-  //npm.pkg.github.com/:_authToken=YOUR_TOKEN
-  ```
+	```
+	registry=https://registry.npmjs.org/
+	@utdanningno:registry=https://npm.pkg.github.com/
+	//npm.pkg.github.com/:_authToken=YOUR_TOKEN
+	```
 
 3. As long as you have access to the necessary Github repos, you can install the packages (these are already installed in this repo):
 
-  ```sh
-  # Base CSS:
-  npm i @utdanningno/designsystem-styles
-  # Fonts (will include icons soon):
-  npm i @utdanningno/designsystem-assets
-  # React components:
-  npm i @utdanningno/designsystem-react
-  ```
+	```sh
+	# Base CSS:
+	npm i @utdanningno/designsystem-styles
+	# Fonts (will include icons soon):
+	npm i @utdanningno/designsystem-assets
+	# React components:
+	npm i @utdanningno/designsystem-react
+	```
 
-  In, e.g., your global CSS:
+	In, e.g., your global CSS:
 
-  ```css
-  @import '@utdanningno/designsystem-styles/base.css';
-  @import '@utdanningno/designsystem-styles/base-md.css' (min-width: 768px);
-  @import '@utdanningno/designsystem-assets/fonts.css';
-  ```
+	```css
+	@import '@utdanningno/designsystem-styles/base.css';
+	@import '@utdanningno/designsystem-styles/base-md.css' (min-width: 768px);
+	@import '@utdanningno/designsystem-assets/fonts.css';
+	```
 
 
 ---
