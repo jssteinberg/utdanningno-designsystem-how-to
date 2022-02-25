@@ -1,0 +1,7 @@
+@use 'sass:map';
+@import '@utdanningno/designsystem-styles/variables-media.scss';
+
+@import '@utdanningno/designsystem-assets/fonts.css';
+@import '@utdanningno/designsystem-styles/base.css';
+@import '@utdanningno/designsystem-styles/base-md.css' (min-width: map.get($breakpoints, "md"));
+@import '@utdanningno/designsystem-styles/button.module.css';
