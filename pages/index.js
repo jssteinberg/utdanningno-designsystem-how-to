@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { Button } from '@utdanningno/designsystem-react'
+import { SearchField } from '@utdanningno/designsystem-react'
 import Select from '../libs/select/select.js'
 
 export default function Home() {
@@ -33,6 +34,8 @@ export default function Home() {
           ]}
         />
         </div>
+
+    		<SearchField />
 
         <p className={styles.description}>
           Get started by editing{' '}

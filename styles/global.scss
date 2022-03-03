@@ -5,3 +5,4 @@
 @import '@utdanningno/designsystem-styles/base.css';
 @import '@utdanningno/designsystem-styles/base-md.css' (min-width: map.get($breakpoints, "md"));
 @import '@utdanningno/designsystem-styles/button.module.css';
+@import '@utdanningno/designsystem-styles/search-field.module.css';
