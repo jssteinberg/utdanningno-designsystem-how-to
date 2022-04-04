@@ -16,7 +16,7 @@
 	//npm.pkg.github.com/:_authToken=YOUR_TOKEN
 	```
 
-3. As long as you have access to the necessary Github repos, you can install the packages (these are already installed in this repo):
+3. As long as you have access to the necessary Github repos, you can install the packages (they are already dependencies in this project):
 
 	```sh
 	# Base CSS:
